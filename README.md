@@ -1,7 +1,7 @@
 # React Native Boilerplate
 React Native Boilerplate using react-navigation and redux.
 
-If you want to use redux-persist, Please check 'persist' branch.
+If you want to use redux-persist, Please check [persist branch](https://github.com/7772/react-native-boilerplate/tree/persist).
 
 ---
 
