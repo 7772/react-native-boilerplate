@@ -1,7 +1,7 @@
 # React Native Boilerplate
 React Native Boilerplate using react-navigation and redux.
 
-If you want to use redux-persist, Please check 'persist' branch.
+This branch, 'persist' have adoptted [redux-persist](https://github.com/rt2zz/redux-persist). By using this library, You can persist state in your app until your app is deleted perfectly.
 
 ---
 
@@ -29,10 +29,9 @@ If you want to use redux-persist, Please check 'persist' branch.
 - [React Native](https://facebook.github.io/react-native/) for making App using javascript
 - [React Navigation](https://reactnavigation.org/) Navigation in React Native
 - [Redux](https://redux.js.org/) a predictable state container for Javascript apps
+- [Redux Persist](https://github.com/rt2zz/redux-persist) persist and rehydrate a redux store
 
 ## Directory Structure
-
-## File Structure
 - `/android` - Android native code
 - `/ios` - iOS native code
 - `/src` - React Native App codebase
@@ -45,6 +44,8 @@ If you want to use redux-persist, Please check 'persist' branch.
   - `/App.js` - Base component
   - `/Router.js` - App navigation
 
+## What can do using /reduces/nav.js ?
+I created CurrentTabReducer that checks where is the current active tab in nav.js. You can see logs whenever occurs click event from tab.
 
 
 

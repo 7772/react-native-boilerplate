@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 
 import { Provider } from 'react-redux';
-import { store, } from './reducers';
+import { PersistGate } from 'redux-persist/integration/react';
+import { store, persistor } from './reducers';
 
 import { setCurrentTab, } from './actions/nav/creators';
 
@@ -30,11 +31,13 @@ class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <RootTabNav 
-                    onNavigationStateChange={(prevState, newState) => {
-                        this._getCurrentRouteName(newState)
-                    }}
-                />
+                <PersistGate loading={null} persistor={persistor}>
+                    <RootTabNav 
+                        onNavigationStateChange={(prevState, newState) => {
+                            this._getCurrentRouteName(newState)
+                        }}
+                    />
+                </PersistGate>
             </Provider>
         );
     }
