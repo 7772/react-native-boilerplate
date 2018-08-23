@@ -1,11 +1,11 @@
-## React Native Boilerplate
+# React Native Boilerplate
 React Native Boilerplate using react-navigation and redux.
 
 If you want to use redux-persist, Please check 'persist' branch.
 
 ---
 
-#### Getting Started
+## Getting Started
 1. Ensure that you've followed the [React Native Started Guide](https://facebook.github.io/react-native/docs/getting-started.html)
 
 2. Clone this Project
@@ -25,13 +25,27 @@ If you want to use redux-persist, Please check 'persist' branch.
   $ react-native run-android
 ```
 
-#### Stack
-- [React Native](https://facebook.github.io/react-native/)
-- [React Navigation](https://github.com/react-community/react-navigation)
-- [Redux](http://rackt.github.io/redux/index.html)
+## Stack
+- [React Native](https://facebook.github.io/react-native/) for making App using javascript
+- [React Navigation](https://reactnavigation.org/) Navigation in React Native
+- [Redux](https://redux.js.org/) a predictable state container for Javascript apps
+
+## Directory Structure
+
+## File Structure
+- `/android` - Android native code
+- `/ios` - iOS native code
+- `/src` - React Native App codebase
+  - `/actions` - Action Types and Action Creators
+  - `/assets` - Images, Fonts and others
+  - `/components` - Dumb components
+  - `/containers` - Smart components
+  - `/reducers` - Reducers and Store
+  - `/utils` - Helpers
+  - `/App.js` - Base component
+  - `/Router.js` - App navigation
 
 
-  
 
 
 
