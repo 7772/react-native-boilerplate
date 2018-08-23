@@ -44,7 +44,7 @@ This branch, 'persist' have adoptted [redux-persist](https://github.com/rt2zz/re
   - `/App.js` - Base component
   - `/Router.js` - App navigation
 
-## What can do using /reduces/nav.js ?
+## What can do using [/reduces/nav.js](https://github.com/7772/react-native-boilerplate/blob/persist/src/reducers/nav.js) ?
 I created CurrentTabReducer that checks where is the current active tab in nav.js. You can see logs whenever occurs click event from tab.
 
 
