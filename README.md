@@ -31,8 +31,6 @@ If you want to use redux-persist, Please check 'persist' branch.
 - [Redux](https://redux.js.org/) a predictable state container for Javascript apps
 
 ## Directory Structure
-
-## File Structure
 - `/android` - Android native code
 - `/ios` - iOS native code
 - `/src` - React Native App codebase
